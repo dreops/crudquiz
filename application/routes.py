@@ -6,7 +6,7 @@ from application import app
 def home():
     return render_template('home.html', title='Home')
 
-@app.route('/add')
+""" @app.route('/add')
 def add():
     return render_template('add.html', title='Add Questions')
 
@@ -16,4 +16,4 @@ def answers():
 
 @app.route('/quiz')
 def quiz():
-    return render_template('quiz.html', title='The Quiz')
+    return render_template('quiz.html', title='The Quiz') """
