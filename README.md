@@ -46,8 +46,11 @@ Whist the project is currently in development it has not been deployed on a prod
 *   [Trello](https://trello.com/b/0sRfDybn/crudquiz-kanban) - Project Tracking
 *   Google Cloud Platform to host every element of the project from VM’s to SQL
 *   Gunicorn (will be used)
-*   Static IP and DNS (routing 
-
+*   Static IP and DNS (routing my domain quiz.dredevops.com to the static IP)
+*   CloudFlare (experimental - which includes a server signed security certificate - will turn off until MVP is met if not initially working).
+<!-- *   Brotli (A CloudFlare feature "Speed up page load times for your visitor’s HTTPS traffic by applying Brotli compression.") will only work if https is configured (the port is open due to allowing HTTPS traffic on the VM) and the certificate has been issued on the domain by CloudFlare but the option to always use HTTPS is turned off for now until the MVP has been met and it's working via HTTP)
+* If CloudFlare works then a countime timer will also appear on the site, and I wil 
+ -->
 
 ### **Credits**
 
