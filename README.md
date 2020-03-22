@@ -51,6 +51,9 @@ Whist the project is currently in development it has not been deployed on a prod
 <!-- *   Brotli (A CloudFlare feature "Speed up page load times for your visitor’s HTTPS traffic by applying Brotli compression.") will only work if https is configured (the port is open due to allowing HTTPS traffic on the VM) and the certificate has been issued on the domain by CloudFlare but the option to always use HTTPS is turned off for now until the MVP has been met and it's working via HTTP)
 * If CloudFlare works then a countime timer will also appear on the site, and I wil 
  -->
+* Draw.io - for creating ERDs
+* Google Drive - cloud based file storage/sharing, backup, file viewer, word processing
+* Evernote - local and cloud based note storage
 
 ### **Credits**
 
