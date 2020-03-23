@@ -12,9 +12,9 @@ class Questions(db.Model):
 class Answers(db.Model):
     __tablename__ = "Answers"
     id = db.Column(db.Integer(), primary_key=True)
-    users_answers = db.Column(db.Integer(), unique=True)
+    users_answers = db.Column(db.Integer() )
     correct_answer = db.Column(db.Integer(), nullable=False)
-    question = relationship("Questions", backref = "answer")
+    ans = db.relationship("Questions", backref = "answer")
 
     def __repr_(self):
         return f"Answers('{self.users_answers}')"
