@@ -10,8 +10,8 @@ class Questions(db.Model):
 
 class Answers(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    users_answers = db.Column(db.Integer(10), unique=True)
-    correct_answer = db.Column(db.Integer(10), nullable=False)
+    users_answers = db.Column(db.Integer, unique=True)
+    correct_answer = db.Column(db.Integer, nullable=False)
 
     def __repr_(self):
         return f"Answers('{self.users_answers}')"
