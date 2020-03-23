@@ -1,6 +1,6 @@
 from flask import render_template
 from application import app
-from forms import QuestionForm
+from application.forms import QuestionForm
 
 @app.route('/')
 @app.route('/home')
