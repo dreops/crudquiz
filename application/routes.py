@@ -1,5 +1,6 @@
 from flask import render_template
 from application import app
+from forms import QuestionForm
 
 @app.route('/')
 @app.route('/home')
@@ -21,3 +22,8 @@ def answers():
 @app.route('/quiz')
 def quiz():
     return render_template('quiz.html', title='The Quiz')
+
+@app.route('/create', methods=['GET','POST'])
+def create():
+    form = QuestionForm()
+    return render_template('create.html', title='Create Question', form = form)

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block body_content %}
+    <h1>{{ title }}</h1>
+    <br>
+    <h2>Add a Question to apper in the Quiz</h2>
+    <!-- Start of create functionality -->
+    <br>
+        <h3>Input a question with the max. length of 255 chars</h3>
+        <div class='form'>
+            <form method="POST" action=''>
+                <p>
+                    {{ form.quizquestion.label }}<br>
+                    {{ form.quizquestion(size=100) }}
+                </p>
+                <p>
+                    {{ form.submit() }}
+                </p>
+            </form>
+        </div>
+
+    </p>
+    <h4>Disclaimer! The questions could have been written by all kinds of sick entities</h3>
+    <p><i>Enjoy the <b>quiz</b> and don't forget to check your answers and write some questions.</i></p>
+    <br>
+    <p><b>Stay safe!</b> - <i>CrudQuiz</i> 2020</p>
+{% endblock %}
