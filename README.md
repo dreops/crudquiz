@@ -21,7 +21,7 @@ Create a web app deployed on a production-ready server that has full CRUD functi
 [Risk Asessment](https://docs.google.com/document/d/e/2PACX-1vTrfSYyr-DdCGlFeKzCalICBrw_ku0WTiIBZj1q4u_WgoqHw3w1gg_Rl0veIr2TyJh_Sj0YZk62gJ6p/pub) 
 
 
-![alt_text](assets/erd-2.png "Entity Relationship Diagram")
+![ERD](assets/erd-2.png "Entity Relationship Diagram")
 
 
 To meet the MVP two tables are needed and here a one-to-many relationship is shown between the answer_id row in the Questions table and the user_answers row in the Answers table.
