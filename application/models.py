@@ -1,7 +1,6 @@
 from application import db
 
 class Questions(db.Model):
-    __tablename__ = "Questions"
     id = db.Column(db.Integer(), primary_key=True)
     quizquestions = db.Column(db.String(255), unique=True)
     answer_id = db.Column(db.Integer(), db.ForeignKey("Answers.id"))
@@ -10,9 +9,8 @@ class Questions(db.Model):
         return f"Questions('{self.quizquestions}')"
 
 class Answers(db.Model):
-    __tablename__ = "Answers"
     id = db.Column(db.Integer(), primary_key=True)
-    users_answers = db.Column(db.Integer() )
+#    users_answers = db.Column(db.Integer() )
     correct_answer = db.Column(db.Integer(), nullable=False)
     ans = db.relationship("Questions", backref = "answer")
 
