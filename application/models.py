@@ -2,8 +2,8 @@ from application import db
 
 class Questions(db.Model):
     id = db.Column(db.Integer(), primary_key=True)
-    quizquestions = db.Column(db.String(255), unique=True)
-    answer_id = db.Column(db.Integer(), db.ForeignKey("Answers.id"))
+    quizquestions = db.Column(db.String(255), nullable=False, unique=True)
+    answer_id = db.Column(db.Integer())#, db.ForeignKey("Answers.id"))
 
     def __repr_(self):
         return f"Questions('{self.quizquestions}')"
