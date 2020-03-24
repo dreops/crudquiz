@@ -3,9 +3,9 @@
 _In response to the first solo project at QA Consulting._
 
 
-### **Index**
+<!-- ### **Index**
 
-<span style="text-decoration:underline;">Coming soon!</span>
+<span style="text-decoration:underline;">Coming soon!</span> -->
 
 
 ### **The Brief**
@@ -16,10 +16,12 @@ Create a web app deployed on a production-ready server that has full CRUD functi
 ## Entity Relationship Diagram
 
 
+## Risk Assessment
+
+[Risk Asessment](https://docs.google.com/document/d/e/2PACX-1vTrfSYyr-DdCGlFeKzCalICBrw_ku0WTiIBZj1q4u_WgoqHw3w1gg_Rl0veIr2TyJh_Sj0YZk62gJ6p/pub) 
 
 
-
-![alt_text](assets/erd.jpg "Entity Relationship Diagram")
+![alt_text](assets/erd-2.png "Entity Relationship Diagram")
 
 
 To meet the MVP two tables are needed and here a one-to-many relationship is shown between the answer_id row in the Questions table and the user_answers row in the Answers table.
@@ -27,7 +29,7 @@ To meet the MVP two tables are needed and here a one-to-many relationship is sho
 
 ### **Testing**
 
-As per the project brief one can run pytest to run tests on my code.
+As per the project brief should be able to run pytest to run tests on my code.
 
 
 ### **Deployment**
