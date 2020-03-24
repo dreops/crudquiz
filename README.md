@@ -66,4 +66,4 @@ Additional thanks to Rory, Naomi and all the immensely supportive & wonderful st
 
 <p style="text-align: right">
 <em> \
-Document version<strong>  0.2.0</strong></em></p>
+Document version<strong>  0.4.0</strong></em></p>
