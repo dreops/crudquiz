@@ -13,12 +13,14 @@ _In response to the first solo project at QA Consulting._
 Create a web app deployed on a production-ready server that has full CRUD functionality to meet the MVP (_minimum viable product_) without adding any additional functionality until this MVP has been met. Part of the brief is writing documentation (which you are reading now) as well as the use of a project tracking system (in my case Trello) which also utilises the Kanban method.
 
 
-## Entity Relationship Diagram
 
 
 ## Risk Assessment
 
 [Risk Asessment](https://docs.google.com/document/d/e/2PACX-1vTrfSYyr-DdCGlFeKzCalICBrw_ku0WTiIBZj1q4u_WgoqHw3w1gg_Rl0veIr2TyJh_Sj0YZk62gJ6p/pub) 
+
+
+## Entity Relationship Diagram
 
 
 ![ERD](assets/erd-2.png "Entity Relationship Diagram")
